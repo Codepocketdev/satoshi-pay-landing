@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satoshi Pay - Bitcoin Ecash Wallet for Africa</title>
+    <meta name="description" content="Self-custody Bitcoin ecash wallet built for Africa. Send sats instantly, privately, and without permission.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">Satoshi Pay</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#install" class="nav-link">Install</a>
+                <a href="#opensource" class="nav-link">Open Source</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank" class="nav-link">GitHub</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Lead Life ● </span><br>
+                    <span class="gradient-text">Like Satoshi</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Self-custody Bitcoin ecash wallet built for Africa.<br>
+                    Send sats instantly, privately, and without permission.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#install" class="btn btn-primary">Install Now</a>
+                    <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank" class="btn btn-secondary">View GitHub →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Section -->
+    <section class="what-is" id="what-is">
+        <div class="container">
+            <div class="section-intro">
+                <h2>What is Satoshi Pay?</h2>
+                <p class="large-text">
+                    Satoshi Pay is a Bitcoin Lightning and ecash wallet using the Cashu protocol. 
+                    Send and receive sats instantly with cash-like privacy.
+                </p>
+                <p>
+                    Built as a Progressive Web App (PWA) - no app stores, no gatekeepers. 
+                    Install directly from your browser on any device.
+                </p>
+            </div>
+
+            <div class="value-props">
+                <div class="value-prop">
+                    <h3>No KYC</h3>
+                    <p>No accounts, no email, no verification. Just a 12-word seed phrase. Your keys, your coins.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>Multi-Mint</h3>
+                    <p>Connect to multiple Cashu mints. Spread risk, maintain privacy, no single point of failure.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>Open Source</h3>
+                    <p>MIT licensed. Fork it, customize it, self-host it. Fully transparent and auditable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Multi-Mint Support</h3>
+                    <p>Connect to multiple Cashu mints simultaneously. No single point of failure.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>P2PK Token Locking</h3>
+                    <p>Lock tokens to specific recipients using NUT-11. Perfect for refunds and recurring payments.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Lightning Interface</h3>
+                    <p>Mint ecash from Lightning. Melt ecash to Lightning. Instant swaps between networks.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Nostr Integration</h3>
+                    <p>Send tokens via encrypted Nostr DMs. Share your Lightning Address with the world.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Deterministic Restore</h3>
+                    <p>Recover your ecash from any compatible wallet using NUT-09 and your 12-word seed.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Offline P2P</h3>
+                    <p>Send tokens via QR codes without internet connection. True peer-to-peer digital cash.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Install from Web</h3>
+                    <p>Open satoshipay.me in your browser. No app store needed.</p>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Generate Seed</h3>
+                    <p>Wallet creates your 12-word recovery phrase. Write it down securely.</p>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Sending</h3>
+                    <p>Mint from Lightning or receive tokens. Send sats anywhere, instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Install Section -->
+    <section class="install" id="install">
+        <div class="container">
+            <h2 class="section-title">Install as Progressive Web App</h2>
+            <p class="install-subtitle">Works on any device with a browser</p>
+            
+            <div class="install-buttons">
+                <a href="https://wallet.satoshipay.me" target="_blank" class="install-btn">
+                    <span class="install-icon">Android</span>
+                    <span class="install-text">Install on Android</span>
+                </a>
+                <a href="https://wallet.satoshipay.me" target="_blank" class="install-btn">
+                    <span class="install-icon">iOS</span>
+                    <span class="install-text">Install on iOS</span>
+                </a>
+                <a href="https://wallet.satoshipay.me" target="_blank" class="install-btn">
+                    <span class="install-icon">Desktop</span>
+                    <span class="install-text">Install on Desktop</span>
+                </a>
+            </div>
+
+            <div class="install-instructions">
+                <p><strong>How to install:</strong></p>
+                <ol>
+                    <li>Open <a href="https://wallet.satoshipay.me" target="_blank">satoshipay.me</a> in your browser</li>
+                    <li>Tap browser menu → "Add to Home Screen" or "Install"</li>
+                    <li>Access anytime from your home screen</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Section -->
+    <section class="opensource" id="opensource">
+        <div class="container">
+            <h2 class="section-title">Open Source</h2>
+            <p class="opensource-subtitle">Satoshi Pay is FOSS - Free and Open Source Software</p>
+            
+            <div class="opensource-info">
+                <div class="opensource-item">
+                    <strong>GitHub:</strong> 
+                    <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank">
+                        Codepocketdev/satoshi-pay-wallet
+                    </a>
+                </div>
+                <div class="opensource-item">
+                    <strong>License:</strong> MIT
+                </div>
+                <div class="opensource-item">
+                    <strong>Built by:</strong> Hodlcurator, Nairobi
+                </div>
+            </div>
+
+            <p style="margin-top: 2em;">
+                Contributions welcome. Bug reports encouraged. Fork it, customize it, make it yours.
+            </p>
+
+            <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank" class="btn btn-primary">
+                Star on GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+            
+            <div class="faq-items">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What's a mint?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A Cashu mint is a server that issues ecash tokens backed by Bitcoin via the Lightning Network. Think of it like a digital cash issuer - they hold Bitcoin and give you tokens that represent that Bitcoin.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I restore in another wallet?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We follow BIP39 and NUT-09/13 standards. Your 12-word seed works in cashu.me, Minibits, Nutstash, and any other compliant Cashu wallet.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Which mint should I use?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Use multiple mints to spread risk. We default to BTCforPlebs, Minibits, Kashu, and WesternBTC. You can add custom mints in settings. Choose established mints with good reputation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I run my own mint?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Use cashu-server (JavaScript) or nutshell (Python/Rust). You'll need a Lightning node and server with good uptime. Check the Cashu documentation for setup guides.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Built for Africa - what does that mean?</span>
+                        <span class="faq-arrow">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Satoshi Pay displays balance in African currencies (KSh, UGX, ZAR), has mobile-first design optimized for low connectivity, and works as a PWA to avoid app store friction common in African markets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-tagline">
+                <p class="footer-year">2025 | Built in Nairobi, Kenya</p>
+                <p class="footer-subtitle">Free & Open Source Software</p>
+                <p class="footer-motto">Lead Life • Like Satoshi</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank">GitHub</a>
+                <a href="https://x.com/SatsCode" target="_blank">Twitter</a>
+                <a href="https://yakihonne.com/profile/nprofile1qqs8hdggrt8j43r7gvnek8z7fyc04tw453wdv60e3kjpnqzhn9c2q9szqqpsgqqqqqqq96tnpg" target="_blank">Nostr</a>
+                <a href="https://docs.cashu.space/" target="_blank">Docs</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
