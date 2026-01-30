@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
     <title>Satoshi Pay - Bitcoin Ecash Wallet for Africa</title>
-    <meta name="description" content="Self-custody Bitcoin ecash wallet built for Africa. Send sats instantly, privately, and without permission.">
+    <meta name="title" content="Satoshi Pay - Bitcoin Ecash Wallet for Africa">
+    <meta name="description" content="Self-custody Bitcoin ecash wallet built for Africa. Send sats instantly, privately, and without permission using the Cashu protocol.">
+    <meta name="keywords" content="bitcoin, ecash, cashu, wallet, lightning, africa, cryptocurrency, privacy, self-custody">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://satoshipay.me/">
+    <meta property="og:title" content="Satoshi Pay - Bitcoin Ecash Wallet for Africa">
+    <meta property="og:description" content="Self-custody Bitcoin ecash wallet. Send sats instantly, privately, and without permission.">
+    <meta property="og:image" content="https://satoshipay.me/images/logo.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://satoshipay.me/">
+    <meta property="twitter:title" content="Satoshi Pay - Bitcoin Ecash Wallet for Africa">
+    <meta property="twitter:description" content="Self-custody Bitcoin ecash wallet. Send sats instantly, privately, and without permission.">
+    <meta property="twitter:image" content="https://satoshipay.me/images/logo.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    <link rel="apple-touch-icon" href="images/logo.jpg">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,10 +36,12 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-brand">
+                <img src="images/logo.jpg" alt="Satoshi Pay" class="nav-logo">
                 <span class="logo">Satoshi Pay</span>
             </div>
             <div class="nav-menu" id="navMenu">
                 <a href="#features" class="nav-link">Features</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
                 <a href="#install" class="nav-link">Install</a>
                 <a href="#opensource" class="nav-link">Open Source</a>
                 <a href="#faq" class="nav-link">FAQ</a>
@@ -33,17 +59,26 @@
     <section class="hero" id="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="gradient-text">Lead Life ● </span><br>
-                    <span class="gradient-text">Like Satoshi</span>
-                </h1>
-                <p class="hero-subtitle">
-                    Self-custody Bitcoin ecash wallet built for Africa.<br>
-                    Send sats instantly, privately, and without permission.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#install" class="btn btn-primary">Install Now</a>
-                    <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank" class="btn btn-secondary">View GitHub →</a>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Lead Life ●</span><br>
+                        <span class="gradient-text">Like Satoshi</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Self-custody Bitcoin ecash wallet built for Africa.<br>
+                        Send sats instantly, privately, and without permission.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#install" class="btn btn-primary">Install Now</a>
+                        <a href="https://github.com/Codepocketdev/satoshi-pay-wallet" target="_blank" class="btn btn-secondary">View GitHub →</a>
+                    </div>
+                </div>
+                <div class="hero-phone">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <img src="images/welcome-page.jpg" alt="Satoshi Pay Wallet" class="phone-screen">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,6 +155,49 @@
         </div>
     </section>
 
+    <!-- Screenshot Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">See It In Action</h2>
+            <p class="gallery-subtitle">Explore the wallet interface</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/send-page.jpg" alt="Send Page">
+                    <div class="gallery-caption">Send</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/receive-page.jpg" alt="Receive Page">
+                    <div class="gallery-caption">Receive</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/nostr-page.jpg" alt="Nostr Integration">
+                    <div class="gallery-caption">Nostr</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/p2pk-page.jpg" alt="P2PK Locking">
+                    <div class="gallery-caption">P2PK</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/lightning-address.jpg" alt="Lightning Address">
+                    <div class="gallery-caption">Lightning</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/swap-page.jpg" alt="Swap">
+                    <div class="gallery-caption">Swap</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/discover-mints.jpg" alt="Discover Mints">
+                    <div class="gallery-caption">Mints</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/splash-page.jpg" alt="Splash Screen">
+                    <div class="gallery-caption">Welcome</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- How It Works -->
     <section class="how-it-works">
         <div class="container">
@@ -175,7 +253,7 @@
             <div class="install-instructions">
                 <p><strong>How to install:</strong></p>
                 <ol>
-                    <li>Open <a href="https://wallet.satoshipay.me" target="_blank">satoshipay.me</a> in your browser</li>
+                    <li>Open <a href="https://wallet.satoshipay.me" target="_blank">wallet.satoshipay.me</a> in your browser</li>
                     <li>Tap browser menu → "Add to Home Screen" or "Install"</li>
                     <li>Access anytime from your home screen</li>
                 </ol>
@@ -294,4 +372,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
